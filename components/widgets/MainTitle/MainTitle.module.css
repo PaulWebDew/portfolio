@@ -1,0 +1,5 @@
+@reference "tailwindcss";
+
+.subtitle{
+    @apply px-0.5 text-lg md:text-2xl leading-[1.2] lg:text-3xl sm:max-w-[80dvw] md:max-w-[50dvw] 2xl:max-w-[30dvw] block w-max;
+}

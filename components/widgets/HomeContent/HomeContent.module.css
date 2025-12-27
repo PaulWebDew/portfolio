@@ -1,0 +1,40 @@
+@reference "../../../app/globals.css";
+
+.previewContainer {
+  @apply relative max-w-4/5 sm:max-w-4/5  md:max-w-2/3 tablet:max-w-1/2 pl-2 pt-2 sm:pl-4 md:pl-8 lg:pl-14 text-base sm:text-xl md:text-2xl   text-cyan-100 text-shadow-md  text-shadow-cyan-700  leading-[1.5] tracking-wide sm:pb-8 z-[4];
+
+  p {
+    @apply relative z-2;
+  }
+}
+
+.divider {
+  @apply tablet:h-96 h-0.5 2xl:h-52 tablet:w-0.5 shrink-0 bg-linear-to-r tablet:bg-linear-to-b from-transparent via-[color:var(--primary)] to-transparent;
+}
+
+.techContainer {
+  @apply flex items-center gap-4 text-xl text-cyan-50 font-semibold leading-[1.5] tracking-wide text-nowrap;
+}
+
+.experienceContainer {
+  @apply relative max-w-dvw sm:max-w-1/2 pl-2 sm:pl-4 md:pl-8 lg:pl-14 pt-6 text-xl sm:text-2xl text-cyan-100 text-shadow-md text-shadow-cyan-700 leading-[1.5] tracking-wide;
+}
+
+.portrait {
+  @apply hidden md:block brightness-70 w-auto h-4/2   max-h-[160%] max-w-[80%] lg:max-w-[50%] object-contain object-bottom absolute bottom-0 -right-42 lg:-right-4 filter  drop-shadow-[0_0_4px_rgba(0,89,101)];
+}
+
+.portraitMobile {
+  @apply absolute bottom-0 w-[90dvw] max-w-dvw h-auto -right-4/6 block md:hidden brightness-70 filter  drop-shadow-[0_0_4px_rgba(0,89,101)];
+}
+
+.experienceItem {
+  @apply flex items-center gap-2 sm:gap-4;
+}
+
+.experienceItem > .icon {
+  @apply shrink-0 text-cyan-400/80 w-4 h-4 sm:w-6 sm:h-6;
+}
+.experienceItem > .title {
+  @apply text-base sm:text-xl sm:text-nowrap max-w-[90dvw] text-start;
+}
