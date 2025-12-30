@@ -1,6 +1,6 @@
 'use client';
 
-import { PageLogo } from '../../PageLogo';
+import { PageLogo } from '../PageLogo';
 import cls from './PageTransition.module.css';
 
 import { gsap } from 'gsap';

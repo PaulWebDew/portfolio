@@ -1,4 +1,4 @@
-@reference "../../../../app/globals.css";
+@reference "../../../app/globals.css";
 
 .transitionOverlay {
   @apply fixed top-0 left-0 w-dvw h-dvh z-90 pointer-events-none flex;
@@ -11,7 +11,7 @@
   @apply w-[800px] h-[400px] flex items-center justify-center p-5;
 }
 .block {
-  transform: scaleX(0.4);
+  transform: scaleX(0);
   transform-origin: left;
-  @apply flex-1 h-full bg-background origin-left;
+  @apply flex-1 h-full bg-overlay origin-left;
 }

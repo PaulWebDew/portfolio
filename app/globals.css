@@ -13,6 +13,7 @@
   --color-bgSecondary: var(--backgroundSecondary);
   --color-secondary: var(--secondary);
   --color-background: var(--background);
+  --color-overlay: var(--overlay);
   --color-backgroundLight: var(--backgroundLight);
 
   --color-foreground: var(--foreground);
@@ -58,6 +59,7 @@
   --secondary: #40ffaa;
   --contentWidth: 1920px;
   --background: #060010;
+  --overlay: #012734;
   --backgroundLight: #013036;
   --backgroundSecondary: #ece1e1;
 
@@ -97,6 +99,7 @@
   --primaryLight: rgba(20, 217, 245);
   --contentWidth: 1920px;
   --background: #060010;
+  --overlay: #012734;
   --backgroundSecondary: #ece1e1;
   --secondary: #40ffaa;
   --backgroundLight: #013036;

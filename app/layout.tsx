@@ -1,5 +1,5 @@
 import { Header } from '@/components/layout/header/Header';
-import { PageTransition } from '@/components/layout/header/PageTransition/PageTransition';
+import { PageTransition } from '@/components/layout/PageTransition/PageTransition';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';

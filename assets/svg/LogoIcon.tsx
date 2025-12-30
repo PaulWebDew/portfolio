@@ -1,0 +1,41 @@
+import { IIconProps } from '@/types/common.types';
+import { type FC } from 'react';
+
+export const LogoIcon: FC<IIconProps> = ({
+  width = 48,
+  height = 48,
+  color = 'currentColor',
+  ...props
+}) => {
+  return (
+    <svg width={width} height={height} viewBox="0 0 820 170" {...props}>
+      <path
+        d="
+      M 50 120
+
+      C 50 55, 120 45, 150 75
+      C 175 100, 145 125, 90 120
+      C 110 118, 135 120, 155 130
+
+      C 185 145, 240 145, 245 115
+      C 250 85, 210 80, 205 110
+      C 200 150, 285 150, 290 115
+
+      C 292 60, 315 55, 320 110
+
+      C 325 150, 380 150, 390 115
+      C 400 85, 425 85, 440 110
+
+      C 455 95, 495 95, 495 115
+      C 495 130, 470 130, 460 115
+      C 480 115, 520 120, 590 90
+    "
+        fill="none"
+        stroke={color}
+        strokeWidth="11"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
